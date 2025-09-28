@@ -1,30 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-COMMERCE</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/57/57589.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <!-- Navbar here -->
-     <header>
-        <nav class="navbar">
+    <header>
+        <nav class="navbar flex container">
             <a href="#" class="logo">
-                Buzz <span>Buy.</span>
+                Buzz<span>Buy.</span>
+            </a>
+            <ul class="navlist flex">
+                <li>
+                    <a href="#" class="link link-active">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Page</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Contact</a>
+                </li>
+                <li class="nav-icons flex">
+                    <a href="#" class="icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                    <a href="#" class="icon icon-active">
+                        <i class="fa-solid fa-shopping-bag"></i>
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
             </a>
         </nav>
-     </header>
-
-
-
-
-
-
-
-
-
+    </header>
+    <!-- section here -->
+    <main>
+        <section class="hero">
+            <div class="hero-content flex container">
+                <div>
+                    <h3>Summer Fashion</h3>
+                    <h1>New Collection</h1>
+                    <h4>Big sale of this week up to <span>30%</span></h4>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="category-container container">
+                <div class="category">
+                    <img src="./images/for men.jpg">
+                    <button>For Men's</button>
+                </div>
+                <div class="category">
+                    <img src="./images/for kids.jpg">
+                    <button>For Kid's</button>
+                </div>
+                <div class="category">
+                    <img src="./images/for accessories.jpg">
+                    <button>For Accessories</button>
+                </div>
+                <div class="category">
+                    <img src="./images/for women.jpg">
+                    <button>For Women's</button>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2>New Product</h2>
+                <div class="line"></div>
+                <div class="card-container flex">
+                    <div class="card">
+                        <img src="./images/card-image1.jpg">
+                        <div class="card-content">
+                            <p class="title">
+                                Leather Black Handbag Out Edition
+                            </p>
+                            <div class="price">
+                                <span class="amount">$100.00</span>
+                            </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card sale">
+                        <img src="./images/card-image2.jpg">
+                        <div class="card-content">
+                            <p class="title">
+                                Leather Black Handbag Out Edition
+                            </p>
+                            <div class="price">
+                                <del>$150.00</del>
+                                <span class="amount">$100.00</span>
+                            </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card new">
+                        <img src="./images/card-image3.jpg">
+                        <div class="card-content">
+                            <p class="title">
+                                Leather Black Handbag Out Edition
+                            </p>
+                            <div class="price">
+                                <span class="amount">$100.00</span>
+                            </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card new">
+                        <img src="./images/card-image4.jpg">
+                        <div class="card-content">
+                            <p class="title">
+                                Leather Black Handbag Out Edition
+                            </p>
+                            <div class="price">
+                                <span class="amount">$100.00</span>
+                            </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="./script.js"></script>
 </body>
+
 </html>
